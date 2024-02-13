@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Became A Color Nerd</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="main"  class="flexCenter">
+        <section id="mainBox" class="flexCenter">
+            <div id="title" class="flexCenter">RGB color game</div>
+            <div id="userInterface" class="flexCenter">
+                <form>
+                    <tr>
+                        <p  class="colorName">red</p>
+                        <th>
+                            <input value="" type="text" id="redForm">
+                        </th>
+                    </tr>
+                    <tr>
+                        <p class="colorName">green</p>
+                        <th>
+                            <input value="" type="text" id="greenForm">
+                        </th>
+                    </tr>
+                    <tr>
+                        <p class="colorName">blue</p>
+                        <th>
+                            <input value="" type="text" id="blueForm">
+                        </th>
+                    </tr>
+                </form>
+                <button onclick="buttonClicked()" id="validateButton">Guess !</button>
+            </div>
+        </section>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
